@@ -3,12 +3,12 @@
 
 import numpy as np
 
-#Using NumPy create random vector of size 15 having only Integers in the range 1-20.
-arr = np.random.randint(1, high=20, size=15, dtype='int')
+#Using NumPy create random vector of size 20 having only Integers in the range 1-20.
+arr = np.random.randint(1, high=20, size=20, dtype='int')
 print('random array= ', arr)
 print("===============================")
-#reshape the array to 3 by 5
-newArr = np.reshape(arr,(3,5))
+#reshape the array to 4 by 5
+newArr = np.reshape(arr,(4,5))
 print('Array after using reshape function:\n ', newArr)
 
 #To replace the max in each row by 0
